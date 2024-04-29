@@ -1,0 +1,50 @@
+@media (min-width:800px){
+    .formcontainer {
+        width: 800px;
+        
+    }
+    
+    
+   
+   
+}
+
+    
+   
+   
+
+
+    
+    
+
+   
+    
+
+.formcontainer{
+    margin-top: 30px;
+}
+body{
+    background-image: url(education.jpg);
+    background-size: cover;
+}
+.navcolour{
+    color: aqua;
+    
+}
+.navcolour:hover{
+    color: rgb(255, 255, 255);
+
+}
+.formlabelcolour{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.dropdownclasses{
+    color: aqua;
+}
+.dropdownclasses:hover{
+    color: aquamarine;
+}
+
+
+

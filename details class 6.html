@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="detail.css">
+</head>
+<body >
+  
+  <ul class=" bgcolour mb-5 fixed-top bgcolour  nav nav-underline">
+    <li class="  nav-item">
+      <a class="fs-5 navbar-brand" href="#" style="color: rgb(255, 255, 255);">ADjone</a>
+    </li>
+    <li class="  nav-item">
+      <a class=" navbutton  nav-link " aria-current="page" href="index.html">Home</a>
+    </li>
+   
+    <li class="nav-item">
+      <a class=" dropdownclasses nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Student Details
+    </a>
+    <ul class=" dropdowns dropdown-menu" aria-labelledby="navbarDropdown">
+        <li><a class="dropdown-item" href="details class 5.html">Class 5</a></li>
+        
+        <li><a class="dropdown-item" href="details class 6.html">Class 6</a></li>
+        <li><a class="dropdown-item" href="details class 7.html">Class 7</a></li>
+        <li><a class="dropdown-item" href="details class 8.html">Class 8</a></li>
+        <li><a class="dropdown-item" href="details class 9.html">Class 9</a></li>
+        <li><a class="dropdown-item" href="details class 10.html">Class 10</a></li>
+        <li><a class="dropdown-item" href="details class 11.html">Class 11</a></li>
+        <li><a class="dropdown-item" href="details class 12.html">Class 12</a></li>
+        <li><a class="dropdown-item" href="details 1st sem.html">Class 1st Sem</a></li>
+        <li><a class="dropdown-item" href="details 2nd sem.html">Class 2nd Sem</a></li>
+        <li><a class="dropdown-item" href="details 3rd sem.html">Class 3rd Sem</a></li>
+        <li><a class="dropdown-item" href="details 4th sem.html">Class 4th Sem</a></li>
+        <li><a class="dropdown-item" href="details 5th sem.html">Class 5th Sem</a></li>
+        <li><a class="dropdown-item" href="details 6th sem.html">Class 6th Sem</a></li>
+    </ul>
+    </li>
+    <li class="nav-item">
+      <button id="deleteAllbutton" type="button" class=" deleteall  btn btn-danger">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3-fill" viewBox="0 0 16 16">
+            <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5m-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5M4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06m6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528M8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5"></path>
+        </svg>
+        Delete All DataBase
+    </button>
+    </li>
+  </ul>
+  <p id="para" class="para text-center">FEES DETAILS OF CLASS 6</p>
+    <table  class=" w-100 p-3 mt-5  table table table-info table-hover table-striped ">
+        <thead >
+          <tr class="table-dark">
+            <th scope="col">SL.No</th>
+            <th scope="col">Name</th>
+            <th scope="col">Fees</th>
+            <th scope="col">Date</th>
+            <th class="text-center"scope="col">Delete Button</th>
+          </tr>
+        </thead>
+        <tbody id="studentTableBody">
+          <tr class="tableRow">
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+            <td class="text-center"> <!-- Adding Bootstrap class to align content to the right -->
+                <button type="button" class=" btn btn-outline-danger"id="deletebutton">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3-fill" viewBox="0 0 16 16">
+                        <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5m-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5M4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06m6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528M8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5"></path>
+                    </svg>
+                    Delete
+                </button>
+            </td>
+        </tr>
+        
+
+          
+
+         
+    </table>  
+    
+    
+    <footer style="position: relative; top: 450px;"class=" d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top ">
+      <p style="color: aliceblue;" class=" col-md-4 mb-0 text-body-light">© made by ADjone</p>
+  
+      <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-emoji-smile" viewBox="0 0 16 16">
+          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+          <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.5 3.5 0 0 0 8 11.5a3.5 3.5 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.5 4.5 0 0 1 8 12.5a4.5 4.5 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5m4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5"/>
+        </svg>
+      </a>
+      <!-- buttons -->
+  
+      <ul class="nav col-md-4 justify-content-end ">
+        <li style="border: 2px solid white; border-radius: 10px; margin-right: 10px;" class="nav-item"><a href="#" class="footerlist nav-link px-2 ">Home</a></li>
+       
+        <li style="border: 2px solid white; border-radius: 10px;" class="nav-item"><a href="about.html" class="footerlist nav-link px-2 ">About</a></li>
+      </ul>
+    </footer>     
+     
+
+     
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+        <script src="details class 6.js"></script>
+        
+ 
+</body>
+</html>

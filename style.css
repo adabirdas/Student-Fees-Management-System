@@ -1,0 +1,69 @@
+body{
+    background-color: aliceblue;
+    background-image: url(456047-wallpaper-education-education-wallpaper-catholic-education-wallpaper-and-education-background.jpg);
+}
+.carousel1{
+    
+    position: relative;
+    top: 20px;
+    
+    
+    
+    
+}
+nav{
+    
+    
+    background-color: aqua;
+}
+
+.clicke1:hover{
+    color: black;
+    border:2px solid rgb(25, 247, 247);
+    border-radius: 10px;
+}
+@media (min-width:1043px){
+    .main{
+        width: 1000px
+    }
+    .caro{
+        height: 500px;
+    }
+    .para{
+        color: rgb(0, 0, 0);
+        font-size: 2rem;
+    }
+}
+@media(max-width:1043px){
+    .caro{
+        height: 250px;
+    }
+    .para{
+        color: rgb(255, 255, 255);
+    }
+}
+.newbutton{
+    position: relative;
+    top: 60px;
+    opacity: 0.8;
+    background-color: aqua;
+    color: black;
+    font-weight: bolder;
+}
+.footerlist{
+    color: aqua;
+}
+.footerlist:hover{
+    color: aquamarine;
+}
+.dropdowns{
+    z-index: 2000;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+ 
